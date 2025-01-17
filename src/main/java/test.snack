@@ -1,0 +1,46 @@
+
+num x = 10;
+bool flag = true;
+line message = "Hello, SnackSkript!";
+bunch<num> numbers = [1, 2, 3, 4, 5];
+
+
+spit(message, " - testing print statement", x);
+
+
+eat("Please enter a value:");
+
+
+num fun add(num a, num b){
+    vomit a + b;
+}
+
+
+check (x < 20) {
+    spit("x is less ");
+} ohwell {
+    spit("x is not less");
+}
+
+
+until (x > 0) {
+    spit("Countdown:", x);
+    x--;
+}
+
+
+each (num i = 0; i < 5; i++) {
+    spit("Loop index:", i);
+}
+
+
+check(5>3 and 3<9){}
+
+until(5!=3 and a!=0){
+    a = 5;
+}
+
+
+
+
+
